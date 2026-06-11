@@ -1,0 +1,35 @@
+{
+  "name": "yun-kan-xhs-growth",
+  "version": "0.1.1",
+  "description": "Analyze Coupang product Excel data and create Xiaohongshu promotion notes for YunKan Data.",
+  "author": {
+    "name": "YunKan Data"
+  },
+  "license": "MIT",
+  "keywords": [
+    "xiaohongshu",
+    "cross-border-ecommerce",
+    "coupang",
+    "excel-analysis",
+    "ai-product-selection"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "YunKan XHS Growth",
+    "shortDescription": "Analyze Coupang data and draft Xiaohongshu posts.",
+    "longDescription": "A Codex plugin for cross-border ecommerce operators. It analyzes uploaded Coupang product Excel exports, turns the findings into a Xiaohongshu-style seed content note for YunKan Data, generates a cover image prompt, and can help publish through a logged-in Xiaohongshu browser session.",
+    "developerName": "YunKan Data",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write",
+      "Interactive"
+    ],
+    "defaultPrompt": [
+      "Analyze this Coupang Excel and write a YunKan Xiaohongshu note",
+      "Generate a Xiaohongshu cover for this YunKan campaign",
+      "Prepare this YunKan note in my logged-in Xiaohongshu account"
+    ],
+    "brandColor": "#D7354A"
+  }
+}

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Generate XHS Cover"
+  short_description: "Create a Xiaohongshu cover image prompt or asset."
+  brand_color: "#D7354A"
+  default_prompt: "Use $generate-xhs-cover to make a cover for this YunKan Data note."
+policy:
+  allow_implicit_invocation: true

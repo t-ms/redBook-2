@@ -1,0 +1,7 @@
+interface:
+  display_name: "YunKan XHS Campaign"
+  short_description: "Analyze data, write copy, generate cover, and prepare posting."
+  brand_color: "#D7354A"
+  default_prompt: "Use $xhs-yunkan-campaign to analyze my Excel and create a YunKan Data Xiaohongshu post."
+policy:
+  allow_implicit_invocation: true

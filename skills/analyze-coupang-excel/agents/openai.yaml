@@ -1,0 +1,7 @@
+interface:
+  display_name: "Analyze Coupang Excel"
+  short_description: "Find product-selection signals in Coupang exports."
+  brand_color: "#D7354A"
+  default_prompt: "Use $analyze-coupang-excel to summarize market opportunities in this Coupang spreadsheet."
+policy:
+  allow_implicit_invocation: true

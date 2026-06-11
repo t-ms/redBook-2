@@ -1,0 +1,39 @@
+[    5932ms] [INFO] 框架和 SDK 输出的日志默认不展示，可在框架配置文件中设置开启，详见 https://doc.weixin.qq.com/doc/w3_AWkASAb9APAr8IdJI5VS0OyqetUE6?scode=ANAAyQcbAAgB8qKjm9AWkASAb9APA @ https://fe-static.xhscdn.com/formula-static/ugc/public/resource/js/8103.351dee96.js:118
+[    6012ms] [LOG] Error @ :2
+[    6230ms] [LOG] Error @ :2
+[    6601ms] [LOG] Error @ :2
+[    6693ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://creator.xiaohongshu.com/api/galaxy/user/info:0
+[    6931ms] [INFO] 框架和 SDK 输出的日志默认不展示，可在框架配置文件中设置开启，详见 https://doc.weixin.qq.com/doc/w3_AWkASAb9APAr8IdJI5VS0OyqetUE6?scode=ANAAyQcbAAgB8qKjm9AWkASAb9APA @ https://fe-static.xhscdn.com/formula-static/ugc/public/resource/js/8103.351dee96.js:118
+[    6968ms] [LOG] Error @ :2
+[    7053ms] [LOG] Error @ :2
+[    7404ms] [LOG] Error @ :2
+[    7445ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://creator.xiaohongshu.com/login?source=&redirectReason=401&lastUrl=%252Fpublish%252Fpublish:0
+[    8538ms] [ERROR] Failed to load resource: net::ERR_FAILED @ chrome-extension://invalid/:0
+[    8538ms] [ERROR] Failed to load resource: net::ERR_FAILED @ chrome-extension://invalid/:0
+[    8538ms] [ERROR] Failed to load resource: net::ERR_FAILED @ chrome-extension://invalid/:0
+[    8538ms] [ERROR] Failed to load resource: net::ERR_FAILED @ chrome-extension://invalid/:0
+[    8538ms] [ERROR] Failed to load resource: net::ERR_FAILED @ chrome-extension://invalid/:0
+[    8538ms] [ERROR] Failed to load resource: net::ERR_FAILED @ chrome-extension://invalid/:0
+[    8538ms] [ERROR] Failed to load resource: net::ERR_FAILED @ chrome-extension://invalid/:0
+[    8538ms] [ERROR] Failed to load resource: net::ERR_FAILED @ chrome-extension://invalid/:0
+[   10526ms] [LOG] Error @ :2
+[  100529ms] [LOG] Error @ :2
+[  100802ms] [LOG] Error @ :2
+[  101160ms] [INFO] 框架和 SDK 输出的日志默认不展示，可在框架配置文件中设置开启，详见 https://doc.weixin.qq.com/doc/w3_AWkASAb9APAr8IdJI5VS0OyqetUE6?scode=ANAAyQcbAAgB8qKjm9AWkASAb9APA @ https://fe-static.xhscdn.com/formula-static/ugc/public/resource/js/8103.351dee96.js:118
+[  101204ms] [LOG] Error @ :2
+[  101294ms] [LOG] Error @ :2
+[  102573ms] [ERROR] Failed to load resource: net::ERR_FAILED @ chrome-extension://invalid/:0
+[  102573ms] [ERROR] Failed to load resource: net::ERR_FAILED @ chrome-extension://invalid/:0
+[  102573ms] [ERROR] Failed to load resource: net::ERR_FAILED @ chrome-extension://invalid/:0
+[  102573ms] [ERROR] Failed to load resource: net::ERR_FAILED @ chrome-extension://invalid/:0
+[  102573ms] [ERROR] Failed to load resource: net::ERR_FAILED @ chrome-extension://invalid/:0
+[  102573ms] [ERROR] Failed to load resource: net::ERR_FAILED @ chrome-extension://invalid/:0
+[  102573ms] [ERROR] Failed to load resource: net::ERR_FAILED @ chrome-extension://invalid/:0
+[  102573ms] [ERROR] Failed to load resource: net::ERR_FAILED @ chrome-extension://invalid/:0
+[  104465ms] [LOG] Error @ :2
+[  104639ms] [LOG] Error @ :2
+[  112694ms] [TIMEEND] 实时竞速: 8314.044921875 ms @ https://fe-static.xhscdn.com/formula-static/ugc/public/resource/js/index.896d4f8f.js:0
+[  112695ms] [LOG] Error @ :2
+[  114176ms] [LOG] Error @ :2
+[  221334ms] [LOG] Error @ :2
+[  221356ms] [LOG] Error @ :2
