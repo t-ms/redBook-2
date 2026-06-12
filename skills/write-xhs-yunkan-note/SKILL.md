@@ -1,50 +1,45 @@
 ---
 name: write-xhs-yunkan-note
-description: Write Xiaohongshu promotion notes for YunKan Data based on ecommerce product data analysis. Use when the user wants a seed-style, high-conversion Xiaohongshu note focused on AI intelligent product selection, data visualization, decision shortcuts, Coupang crawler data, or avoiding sensitive/platform-banned wording.
+description: Write Xiaohongshu notes based on ecommerce product data analysis. Use when the user wants a seed-style, conversion-oriented Xiaohongshu note from Coupang crawler data, with a natural human voice, low AI flavor, practical selection logic, and no outward mention of the brand name "云瞰数据".
 ---
 
-# Write XHS YunKan Note
+# Write XHS Note
 
-Write a Xiaohongshu note that promotes "云瞰数据" as a practical AI product-selection and Coupang data analysis tool.
+Write a Xiaohongshu note from ecommerce product analysis. The internal product context may be about a crawler/data-analysis tool, but the outward note must read like a real operator's selection recap, not like software advertising.
 
-## Required Prompt Intent
+## Hard Brand Rule
 
-Follow this product-content prompt:
+- Do not include the text "云瞰数据" anywhere in generated outward content.
+- Apply this to title options, body, cover text, hashtags, image prompts, captions, and publishing drafts.
+- Do not replace it with a near-synonym brand alias. Use neutral terms such as "这份数据", "商品表", "后台数据", "选品表", or "这次抓到的数据".
 
-> 请根据我每次上传的爬虫数据(excel)，帮我写种草型的爆款转化笔记。聚焦 "AI智能选品" 核心卖点，采用 "数据可视化+决策捷径" 的种草逻辑，符合小红书高信息密度+强实用性的内容特性，笔记中要规避敏感词平台禁用词。
+## Writing Intent
 
-## Product Facts To Use
+Use each uploaded crawler spreadsheet to write a practical, seed-style Xiaohongshu note for cross-border sellers. Focus on product-selection reasoning from data, especially clicks, sales, reviews, rating, conversion, price band, delivery type, and visible demand signals.
 
-"云瞰数据" can capture Coupang product base data:
-
-- id, sku, main image, product name
-- delivery type
-- price
-- review count
-- rating
-- clicks
-- sales
-
-It uses AI to analyze market trends and help sellers shorten product-selection decisions.
-
-## Writing Rules
+## Human Voice Rules
 
 - Write in simplified Chinese.
-- Lead with a concrete pain point for cross-border sellers.
-- Use "数据可视化 + 决策捷径" logic: show what the data reveals, then explain the action it enables.
-- Keep the tone practical, dense, and useful, not exaggerated.
+- Sound like a real operator sharing a recent finding: slightly conversational, specific, and grounded.
+- Prefer "我这次看下来", "这个点挺容易误判", "我会先看", "值得再拆" over abstract marketing phrases.
+- Avoid stiff phrases such as "赋能", "闭环", "链路", "降本增效", "矩阵化", "数据可视化+决策捷径".
+- Avoid repeatedly saying "AI". If needed, mention "工具辅助整理" or "把数据先跑一遍".
+- Keep claims modest. Do not promise results.
+- Do not fabricate exact metrics. Use exact numbers only when they appear in the analysis.
+- Include small caveats when useful, for example "价格为 0 的样本要单独复核".
+
+## Compliance Rules
+
 - Avoid absolute or risky claims such as "稳赚", "暴富", "最强", "第一", "百分百", "躺赚", "官方认证", "保证出单".
 - Avoid promising unauthorized scraping, platform bypassing, or violating third-party rules.
-- Do not fabricate exact metrics. If the analysis has exact numbers, cite them; otherwise use qualitative wording.
-- Include a title, body, and hashtags.
+- Avoid sounding like a hard sell. The note should feel like an observation and method share.
 
 ## Output Format
 
 Return:
 
-1. `标题`: 2-3 options, each under 20 Chinese characters when possible.
-2. `正文`: one polished Xiaohongshu note.
-3. `封面文字`: 6-12 Chinese characters, strong but compliant.
-4. `标签`: 8-12 hashtags.
-5. `合规检查`: list any wording softened or avoided.
-
+1. `标题`: 2-3 natural options, each under 20 Chinese characters when possible.
+2. `正文`: one polished Xiaohongshu note under 1000 Chinese characters unless the user asks otherwise.
+3. `封面文字`: 6-12 Chinese characters, no brand name.
+4. `标签`: 8-12 hashtags, no brand name.
+5. `合规检查`: list wording softened or avoided.

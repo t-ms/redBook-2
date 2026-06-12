@@ -1,6 +1,6 @@
 interface:
-  display_name: "Write YunKan XHS Note"
-  short_description: "Draft compliant Xiaohongshu copy for YunKan Data."
+  display_name: "Write XHS Data Note"
+  short_description: "Draft natural Xiaohongshu copy from product data."
   brand_color: "#D7354A"
   default_prompt: "Use $write-xhs-yunkan-note to turn this analysis into a Xiaohongshu promotion note."
 policy:

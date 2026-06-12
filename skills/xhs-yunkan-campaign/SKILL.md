@@ -1,9 +1,9 @@
 ---
 name: xhs-yunkan-campaign
-description: End-to-end YunKan Data Xiaohongshu campaign workflow. Use when the user wants to upload Coupang Excel data, analyze cross-border ecommerce product trends, generate a Xiaohongshu promotional note, create an image2/AI cover image, and optionally publish through a logged-in Xiaohongshu browser account.
+description: End-to-end Xiaohongshu campaign workflow for Coupang product data. Use when the user wants to upload Coupang Excel data, analyze cross-border ecommerce product trends, generate a natural Xiaohongshu note, create an image2/AI cover image with no "云瞰数据" text, and optionally publish through a logged-in Xiaohongshu browser account.
 ---
 
-# XHS YunKan Campaign
+# XHS Campaign
 
 Coordinate the full workflow by invoking the plugin's focused skills as needed.
 
@@ -18,7 +18,8 @@ Coordinate the full workflow by invoking the plugin's focused skills as needed.
 
 - Language: simplified Chinese.
 - Audience: Coupang and cross-border ecommerce sellers who need faster product-selection decisions.
-- Positioning: "云瞰数据" is a crawler/data-analysis assistant for AI intelligent product selection.
+- Outward content: do not include "云瞰数据" in generated images, titles, body text, tags, or publishing drafts.
+- Voice: use a natural operator recap style; avoid obvious AI-generated or hard-sell wording.
 - Publishing behavior: prepare draft by default; click final publish only after explicit approval or an explicit direct-publish request.
 
 ## Final Response
@@ -30,4 +31,3 @@ Summarize:
 - generated cover path or prompt
 - whether the Xiaohongshu post is drafted or published
 - any missing dependency, login, or compliance issue
-
