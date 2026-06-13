@@ -1,4 +1,4 @@
----
+﻿---
 name: generate-xhs-cover
 description: Generate or prompt an image-generation tool for a Xiaohongshu cover based on ecommerce product-selection analysis. Use when the user asks for image2, image generation, cover art, poster, thumbnail, or a Xiaohongshu-style visual for Coupang data analysis, and ensure generated cover images contain no "云瞰数据" text.
 ---
@@ -27,9 +27,11 @@ Create a vertical 3:4 cover suitable for Xiaohongshu feed promotion:
 Use this as the base prompt and adapt it to the actual note:
 
 ```text
-竖版3:4小红书封面，主题是跨境电商选品复盘。画面中心是一位运营者在查看现代数据看板，看板包含商品卡片、价格区间、评分、评论数、点击量、销量、转化率和趋势折线图。整体风格明亮、干净、专业、高信息密度，像真实运营复盘而不是广告海报。主标题文字："{cover_text}"。副标题文字："销量和转化一起看"。不出现任何品牌名，不出现“云瞰数据”字样，不出现真实平台 logo，不承诺暴利，不使用夸张现金元素。
+竖版 3:4 小红书封面，主题是跨境电商选品复盘。画面中心是一位运营者在查看现代数据看板，看板包含商品卡片、价格区间、评分、评论数、点击量、销量、转化率和趋势折线图。整体风格明亮、干净、专业、高信息密度，像真实运营复盘而不是广告海报。主标题文字：“{cover_text}”。副标题文字：“销量和转化一起看”。不出现任何品牌名，不出现“云瞰数据”字样，不出现真实平台 logo，不承诺暴利，不使用夸张现金元素。
 ```
 
 ## After Generation
 
 Show the generated image path or markdown image preview when available. If the tool only returns a prompt, provide the final prompt and ask the user to run it in their preferred image generator.
+
+

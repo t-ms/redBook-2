@@ -1,4 +1,4 @@
----
+﻿---
 name: write-xhs-yunkan-note
 description: Write Xiaohongshu notes based on ecommerce product data analysis. Use when the user wants a seed-style, conversion-oriented Xiaohongshu note from Coupang crawler data, with a natural human voice, low AI flavor, practical selection logic, and no outward mention of the brand name "云瞰数据".
 ---
@@ -20,10 +20,10 @@ Use each uploaded crawler spreadsheet to write a practical, seed-style Xiaohongs
 ## Human Voice Rules
 
 - Write in simplified Chinese.
-- Sound like a real operator sharing a recent finding: slightly conversational, specific, and grounded.
-- Prefer "我这次看下来", "这个点挺容易误判", "我会先看", "值得再拆" over abstract marketing phrases.
+- Sound like a real operator sharing a recent finding: conversational, specific, and grounded.
+- Prefer phrases such as "我这次看下来", "这个点挺容易误判", "我会先看", "值得再拆" over abstract marketing phrases.
 - Avoid stiff phrases such as "赋能", "闭环", "链路", "降本增效", "矩阵化", "数据可视化+决策捷径".
-- Avoid repeatedly saying "AI". If needed, mention "工具辅助整理" or "把数据先跑一遍".
+- Avoid repeatedly saying "AI". If needed, say "工具辅助整理" or "把数据先跑一遍".
 - Keep claims modest. Do not promise results.
 - Do not fabricate exact metrics. Use exact numbers only when they appear in the analysis.
 - Include small caveats when useful, for example "价格为 0 的样本要单独复核".
@@ -43,3 +43,5 @@ Return:
 3. `封面文字`: 6-12 Chinese characters, no brand name.
 4. `标签`: 8-12 hashtags, no brand name.
 5. `合规检查`: list wording softened or avoided.
+
+

@@ -1,7 +1,9 @@
-interface:
+﻿interface:
   display_name: "Publish XHS Note"
-  short_description: "Fill or publish a Xiaohongshu post in a logged-in browser."
+  short_description: "Fill or publish a Xiaohongshu post in logged-in Chrome."
   brand_color: "#D7354A"
-  default_prompt: "Use $publish-xhs-note to prepare this note in my logged-in Xiaohongshu account."
+  default_prompt: "Use $publish-xhs-note to prepare this note in my logged-in Chrome Xiaohongshu account."
 policy:
   allow_implicit_invocation: true
+
+

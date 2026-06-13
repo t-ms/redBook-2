@@ -1,6 +1,6 @@
 {
   "name": "yun-kan-xhs-growth",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Analyze Coupang product Excel data and create human Xiaohongshu selection notes.",
   "author": {
     "name": "YunKan Data"
@@ -17,7 +17,7 @@
   "interface": {
     "displayName": "YunKan XHS Growth",
     "shortDescription": "Analyze Coupang data and draft Xiaohongshu posts.",
-    "longDescription": "A Codex plugin for cross-border ecommerce operators. It analyzes uploaded Coupang product Excel exports, turns the findings into a natural Xiaohongshu-style selection note, generates a cover image prompt, and can help publish through a logged-in Xiaohongshu browser session.",
+    "longDescription": "A Codex plugin for cross-border ecommerce operators. It analyzes uploaded Coupang product Excel exports, turns the findings into a natural Xiaohongshu-style selection note, generates a cover image prompt, and can help publish through a logged-in Xiaohongshu Chrome session.",
     "developerName": "YunKan Data",
     "category": "Productivity",
     "capabilities": [
