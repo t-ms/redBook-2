@@ -39,6 +39,72 @@ If neither is true, fill the draft and stop before the final publish action.
 7. If direct publishing is approved, click publish and report the visible result. Otherwise, leave the draft ready for manual review.
 8. Finalize Chrome tabs according to the `chrome:control-chrome` guidance: keep the publishing tab only when it is a deliverable or handoff.
 
+## Xiaohongshu Layout Shortcuts
+
+Use these shortcuts while the Xiaohongshu creator layout remains compatible.
+
+### Switch From Video To Image-Text
+
+The publish page may default to `上传视频`. To switch to image-text:
+
+1. Take a fresh DOM snapshot.
+2. Look for `上传图文` in the header tab area.
+3. If multiple `上传图文` text matches exist, ignore offscreen matches with large negative coordinates.
+4. Click the visible header tab near the top of the publish panel. In the observed layout it was the `.creator-tab` whose text is `上传图文`, around `x=385, y=81` in a 1912 px wide Chrome viewport.
+5. Verify the upload area now says `上传图片，或写文字生成图片` and exposes the visible `上传图片` button.
+
+### Upload Image
+
+1. Click the visible button with accessible name `上传图片`.
+2. Start `waitForEvent("filechooser")` before the click.
+3. Use the returned chooser's `setFiles([...])` with an absolute local image path.
+4. After upload, verify the page has entered edit mode by checking for:
+   - `图片编辑`
+   - title input placeholder `填写标题会有更多赞哦`
+   - a `[contenteditable="true"]` body editor
+
+### Click Final Publish
+
+The final button is a custom element:
+
+```html
+<xhs-publish-btn
+  is-publish="true"
+  is-save-draft="true"
+  submit-text="发布"
+  save-text="暂存离开"
+  submit-disabled="false"
+  save-disabled="false">
+</xhs-publish-btn>
+```
+
+This element uses a closed shadow DOM. Normal DOM snapshots and `locator('xhs-publish-btn').click()` may not click the internal `发布` button.
+
+Use the component rectangle and the known internal layout:
+
+- Host height: `90`
+- Internal buttons: two `120 x 40` buttons
+- Gap between buttons: `24`
+- Left button: `暂存离开`
+- Right red button: `发布`
+- Publish button center:
+
+```text
+x = hostRect.x + (hostRect.width / 2) + 72
+y = hostRect.y + 45
+```
+
+Before clicking, verify:
+
+- `submit-disabled="false"`
+- `submit-text="发布"`
+- No visible upload/content/policy error text
+
+After clicking, verify success by checking for either:
+
+- URL containing `/publish/success`
+- visible text `发布成功`
+
 ## Constraints
 
 - Do not bypass login, captcha, rate limits, or platform review.

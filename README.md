@@ -61,6 +61,8 @@ If image upload fails with a Chrome extension permission error, open `chrome://e
 
 The publishing skill prepares a draft by default and only clicks the final publish button after explicit approval or a direct-publish request.
 
+The publishing skill also documents the current Xiaohongshu layout shortcuts: switching from `上传视频` to `上传图文`, using the visible `上传图片` button for upload, and clicking the closed-shadow `xhs-publish-btn` publish control by its host-rectangle formula.
+
 ## Repository Hygiene
 
 Do not commit browser runtime artifacts such as `.playwright-mcp/`, screenshots created only for debugging, Chrome profile files, cookies, or session data.
